@@ -56,10 +56,10 @@ export default function WithSubnavigation() {
             textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
             fontFamily={'heading'}
             color={useColorModeValue('gray.800', 'white')}>
-            <Image src="/img/logo/logo.png" alt="" width={150} height={100} />
+            <Image src="/img/logo/logo.png" alt="" width={60} height={60} />
           </Text>
 
-          <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
+          <Flex display={{ base: 'none', md: 'flex' }} ml={10} pt={6}>
             <DesktopNav />
           </Flex>
         </Flex>
@@ -289,51 +289,16 @@ const NAV_ITEMS: Array<NavItem> = [
     // subLabel: 'Up-and-coming Designers',
     href: '/Blog',
     children: [
-      {
-        label: 'Blog',
-        // subLabel: 'Up-and-coming Designers',
-        href: '/Blog',
-      },
+      
       {
         label: 'Blog Details',
         // subLabel: '',
         href: '/Single-blog',
       },
-      {
-        label: 'Blog Right Sidebar',
-        // subLabel: '',
-        href: '/Blog-right-side',
-      },
-      {
-        label: 'Blog Left Sidebar',
-        // subLabel: '',
-        href: '/Blog-left-sidebar',
-      },
+      
     ]
   },
-  {
-    label: 'SHOP',
-    // subLabel: 'Up-and-coming Designers',
-    href: '/Shop',
-    children: [
-
-      {
-        label: 'Shopping Cart',
-        // subLabel: '',
-        href: '/Cart',
-      },
-      {
-        label: 'Wishlist',
-        // subLabel: '',
-        href: '/Wishlist',
-      },
-      {
-        label: 'Checkout',
-        // subLabel: '',
-        href: '/Checkout',
-      },
-    ]
-  },
+ 
   {
     label: 'PAGES',
     // subLabel: 'Up-and-coming Designers',

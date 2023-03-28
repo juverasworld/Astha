@@ -16,8 +16,8 @@ body {
 * {
   box-sizing: border-box;
 }
-.row{
-  display:flex;
+.row {
+  display: flex;
 }
 /* .slider-wrapper {
   position: relative;
@@ -1687,6 +1687,7 @@ Common Style CSS
     max-height: 180px;
     overflow-y: auto;
   }
+
 }
 @media only screen and (max-width: 479px) {
   .mobile-menu .mean-bar .mean-nav > ul {
@@ -3575,7 +3576,7 @@ h4.small-title {
 .single-project {
   position: relative;
   overflow: hidden;
-  display:flex;
+  display: flex;
 }
 .single-project > a {
   display: block;
@@ -5607,6 +5608,7 @@ img {
   .single-service h2.service-title {
     font-size: 22px;
   }
+
   .service-image {
     width: 500px;
   }
@@ -5742,6 +5744,9 @@ img {
   }
   .single-service h2.service-title {
     font-size: 20px;
+  }
+  .single-service {
+    margin-left: 30px;
   }
   .service-image {
     width: 450px;
@@ -5884,6 +5889,7 @@ img {
   .donation-image {
     margin-bottom: 30px;
   }
+
   .event-area.pt-70 {
     padding-top: 40px;
   }
@@ -6306,6 +6312,14 @@ img {
   .shop-layout-area.pt-100.pb-80 {
     padding-top: 60px;
     padding-bottom: 0px;
+  }
+  .single-service {
+    margin-left: 30px;
+    /* text-align: center; */
+  }
+  .single-service p{
+    text-align: center; 
+    /* padding-left: 20px; */
   }
   .single-product-details-area.pt-100 {
     padding-top: 60px;
@@ -6949,6 +6963,12 @@ img {
   .single-slider {
     height: 300px;
   }
+  .testimonial-none{
+    display:none;
+  }
+  .none{
+    display:none;
+  }
   .hero-slider-content {
     max-width: 300px;
   }
@@ -6968,6 +6988,14 @@ img {
   .testimonial-content p {
     font-size: 18px;
     line-height: 26px;
+  }
+  .single-service h2{
+    /* padding-left: 50%; */
+    text-align: center;
+  }
+  .single-service p{
+    text-align: center; 
+    /* padding-left: 20px; */
   }
   .team-author-deg h3 {
     font-size: 18px;

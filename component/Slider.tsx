@@ -162,7 +162,7 @@ export default function CaptionCarousel() {
                   <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
                     {/* {card.title} */}
                   </Heading>
-                  <Heading fontSize={{ base: '3xl', lg: '4xl' }} color="YellowText">
+                  <Heading fontSize={{ base: '3xl', lg: '4xl' }} color="yellow.400">
                     {card.text}
                   </Heading>
                 </Stack>
@@ -218,7 +218,7 @@ export default function CaptionCarousel() {
                             {/* <!--Single Service Start--> */}
                             <div className="single-service mb-30">
                                 <h2 className="service-title">Make Donation</h2>
-                                <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
+                                <p className="single-service-p">Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
                             </div>
                             {/* <!--Single Service End--> */}
                         </div>
@@ -226,7 +226,7 @@ export default function CaptionCarousel() {
                             {/* <!--Single Service Start--> */}
                             <div className="single-service mb-30">
                                 <h2 className="service-title">Give Scholarship</h2>
-                                <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
+                                <p className="single-service-p">Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
                             </div>
                             {/* <!--Single Service End--> */}
                         </div>
@@ -234,7 +234,7 @@ export default function CaptionCarousel() {
                             {/* <!--Single Service Start--> */}
                             <div className="single-service mb-30">
                                 <h2 className="service-title">Become a Volunteer</h2>
-                                <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
+                                <p className="single-service-p">Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
                             </div>
                             {/* <!--Single Service End--> */}
                         </div>
@@ -242,7 +242,7 @@ export default function CaptionCarousel() {
                             {/* <!--Single Service Start--> */}
                             <div className="single-service mb-30">
                                 <h2 className="service-title">Organize Entertainment</h2>
-                                <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
+                                <p className="single-service-p">Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
                             </div>
                             {/* <!--Single Service End--> */}
                         </div>
@@ -250,7 +250,7 @@ export default function CaptionCarousel() {
                             {/* <!--Single Service Start--> */}
                             <div className="single-service mb-30">
                                 <h2 className="service-title">Food & Water Supply</h2>
-                                <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
+                                <p className="single-service-p">Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
                             </div>
                             {/* <!--Single Service End--> */}
                         </div>
@@ -258,7 +258,7 @@ export default function CaptionCarousel() {
                             {/* <!--Single Service Start--> */}
                             <div className="single-service mb-30">
                                 <h2 className="service-title">Protect Environment</h2>
-                                <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
+                                <p className="single-service-p">Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
                             </div>
                             {/* <!--Single Service End--> */}
                         </div>
@@ -426,7 +426,7 @@ export default function CaptionCarousel() {
                 <div className="row ">
                     {/* <!--Event Slider Start--> */}
                     <Box
-                    display={{ base: 'none', md: 'none' }}
+                    display={{  base: 'none' }}
                                     position={'relative'}
                                     height={'500px'}
                                     width={'50%'}
@@ -503,11 +503,11 @@ export default function CaptionCarousel() {
                                         ))}
                                     </Slider>
                                 </Box>         
-                    <div className="col-lg-6 col-12">
+                    <div className="">
                         
                         {/* <!--Event Slider End-->
                 <!--Event Description Start--> */}
-                        <div className="col-lg-6 col-12 pl-60" >
+                        <div className="container" >
                             {/* <!--Section Title Start--> */}
                             <div className="section-title text-left">
                                 <h2>Our Causes</h2>
@@ -586,7 +586,7 @@ export default function CaptionCarousel() {
                         </div>
                         {/* <!--Single Testimonial End--> */}
                     </div>
-                    <div className="col-6">
+                    <div className="col-6 testimonial-none">
                         {/* <!--Single Testimonial Start--> */}
                         <div className="single-testimonial">
                             <div className="testimonial-content">
@@ -728,7 +728,7 @@ export default function CaptionCarousel() {
             <div className="">
                 {/* <!--Single Project Start--> */}
                 <div className="single-project img-full">
-                    <a href="#"><Image src="/img/project/project1.jpg" alt="" width={200} height={200} /></a>
+                    <a href="#"><Image src="/img/project/project1.jpg" alt="" width={300} height={200} /></a>
                 </div>
                 {/* <!--Single Project End--> */}
             </div>

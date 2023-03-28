@@ -251,45 +251,53 @@ export default function About(){
 		    </div>
 		</div>
         <div className="project-area pt-100 mb-5">
-		    <div className="container-fluid p-0">
-		        <div className="row no-gutters project-active owl-carousel">
-		            <div className="col-12">
-		                {/* <!--Single Project Start--> */}
-		                <div className="single-project img-full">
-		                    <Link href="#"><Image src="/img/project/project1.jpg" alt="" width={200} height={100}/></Link>
-		                </div>
-		                {/* <!--Single Project End--> */}
-		            </div>
-		            <div className="col-12">
-		                {/* <!--Single Project Start--> */}
-		                <div className="single-project img-full">
-		                    <Link href="#"><Image src="/img/project/project2.jpg" alt=""width={200} height={100}/></Link>
-		                </div>
-		                {/* <!--Single Project End--> */}
-		            </div>
-		            <div className="col-12">
-		                {/* <!--Single Project Start--> */}
-		                <div className="single-project img-full">
-		                    <Link href="#"><Image src="/img/project/project3.jpg" alt="" width={200} height={100}/></Link>
-		                </div>
-		                {/* <!--Single Project End--> */}
-		            </div>
-		            <div className="col-12">
-		                {/* <!--Single Project Start--> */}
-		                <div className="single-project img-full">
-		                    <Link href="#"><Image src="/img/project/project4.jpg" alt="" width={200} height={100}/></Link>
-		                </div>
-		                {/* <!--Single Project End--> */}
-		            </div>
-		            <div className="col-12">
-		                {/* <!--Single Project Start--> */}
-		                <div className="single-project img-full">
-		                    <Link href="#"><Image src="/img/project/project5.jpg" alt="" width={200} height={100}/></Link>
-		                </div>
-		                {/* <!--Single Project End--> */}
-		            </div>
-		        </div>
-		    </div>
+		<div className="container-fluid" style={{ display: "flex", width:"100%" }}>
+            {/* <div className="project-area pt-70 mb-5"> */}
+            <div className="" >
+                {/* <!--Single Project Start--> */}
+                <div className="single-project img-full" >
+                    <a href="#"><Image src="/img/project/project2.jpg" alt="" width={300} height={200}/></a>
+                </div>
+                {/* <!--Single Project End--> */}
+            </div>
+            <div className="">
+                {/* <!--Single Project Start--> */}
+                <div className="single-project img-full">
+                    <a href="#"><Image src="/img/project/project3.jpg" alt="" width={300} height={200} /></a>
+                </div>
+                {/* <!--Single Project End--> */}
+            </div>
+            <div className="">
+                {/* <!--Single Project Start--> */}
+                <div className="single-project img-full">
+                    <a href="#"><Image src="/img/project/project4.jpg" alt="" width={300} height={200} /></a>
+                </div>
+                {/* <!--Single Project End--> */}
+            </div>
+            <div className="">
+                {/* <!--Single Project Start--> */}
+                <div className="single-project img-full">
+                    <a href="#"><Image src="/img/project/project5.jpg" alt="" width={300} height={200} /></a>
+                </div>
+                {/* <!--Single Project End--> */}
+            </div>
+            <div className="">
+                {/* <!--Single Project Start--> */}
+                <div className="single-project img-full">
+                    <a href="#"><Image src="/img/project/project1.jpg" alt="" width={300} height={200} /></a>
+                </div>
+                {/* <!--Single Project End--> */}
+            </div>
+            {/* </div> */}
+            {/* <div className="project-area pt-70 mb-5">
+                <div className="container-fluid p-0">
+                    <div className="row no-gutters project-active rows">
+
+                    </div>
+                </div>
+            </div> */}
+            {/* </div> */}
+        </div>
 		</div>
        <Footer/>
     </section>
